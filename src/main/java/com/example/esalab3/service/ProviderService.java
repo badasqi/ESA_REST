@@ -55,7 +55,4 @@ public class ProviderService {
         providerRepository.deleteById(id);
     }
 
-    @Transactional
-    public void deleteProviderById(Integer id) {
-    }
 }

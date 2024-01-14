@@ -19,7 +19,6 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @RequiredArgsConstructor
 public class AppConfig {
 
-
     @Bean
     @Primary
     public JsonMapper jsonMapper() {

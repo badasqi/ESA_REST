@@ -44,7 +44,6 @@ public class ClientService {
             client.setContact(clientDetails.getContact());
             client.setTariff(clientDetails.getTariff());
             client.setProvider(clientDetails.getProvider());
-            // Другие сеттеры для обновления данных клиента
             return clientRepository.save(client);
         } else {
             return null;
@@ -53,9 +52,6 @@ public class ClientService {
     @Transactional
     public void deleteClient(Integer id) {
         clientRepository.deleteById(id);
-    }
-    @Transactional
-    public void deleteClientById(Integer id) {
     }
 }
 

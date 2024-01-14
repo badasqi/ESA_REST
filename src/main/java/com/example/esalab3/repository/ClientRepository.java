@@ -9,9 +9,7 @@ import java.util.Optional;
 
 @Repository
 public interface ClientRepository extends JpaRepository<Client, Integer> {
-    // Дополнительные методы для работы с провайдерами могут быть добавлены здесь,
-    // но Spring Data JPA предоставляет базовые CRUD методы из коробки.
-    // Например, можно создать методы поиска провайдеров по определенным критериям.
+
     // Поиск всех клиентов
     List<Client> findAll();
 

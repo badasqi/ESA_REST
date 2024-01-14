@@ -11,7 +11,9 @@ Spring охватывает широкий спектр функциональн
 Были заменены репозитории на Spring DATA JPA.
 
 Реализованы рест-контроллеры рассшрены до форматов данных JSON, XML. Была реализова XSL трансформация, добавлены шаблоны XSLT [/api](https://github.com/badasqi/ESA_REST/tree/main/src/main/java/com/example/esalab3/controller/restcontroller), 
-[resourses/xslt/](https://github.com/badasqi/ESA_REST/tree/main/src/main/resources/xslt), 
+[resourses/xslt/](https://github.com/badasqi/ESA_REST/tree/main/src/main/resources/xslt).
+
+В Postman меняется заголовок accept/json, accept/xml, и были протестированы API.
 
 JSP страницы заменен на HTML [resourses/templates/](https://github.com/badasqi/ESA_REST/tree/main/src/main/resources/templates)
 
